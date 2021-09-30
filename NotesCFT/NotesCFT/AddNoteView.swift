@@ -10,7 +10,7 @@ import SwiftUI
 struct AddNoteView: View {
 
 	@State var noteText: String = ""
-	var nbTitle: String = "Новая заметка"
+	var nbTitle: String = l10n("ADDNOTE_TITLE")
 
 	@Binding var showNoteView: Bool
 	@Environment(\.managedObjectContext) private var viewContext
@@ -28,7 +28,7 @@ struct AddNoteView: View {
 			}
 			.navigationBarTitle(nbTitle, displayMode: .inline)
 			.toolbar {
-				Button("Сохранить") {
+				Button(l10n("SAVE")) {
 					addNote(noteText: noteText)
 					self.showNoteView.toggle()
 				}

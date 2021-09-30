@@ -12,9 +12,9 @@ struct WelcomeView: View {
 	@Binding var didnotLaunch: Bool
 
 	var logoName = "startLogo"
-	var startButtonLabel = "Начать пользоваться"
-	var title = "Привет!"
-	var description = "Добро пожаловать в Заметки ЦФТ!\n Данное приложение написано в рамках тестового задания для FocusStart."
+	var startButtonLabel = l10n("CONTINUE")
+	var title = l10n("WELCOME_TITLE")
+	var description = l10n("WELCOME_DESCRIPTION")
 	@Environment(\.managedObjectContext) private var viewContext
 
 	var body: some View {
@@ -25,7 +25,7 @@ struct WelcomeView: View {
 			VStack {
 
 				Button(startButtonLabel) {
-					addNote(noteText: "Тестовая заметка")
+					addNote(noteText: l10n("TESTNOTE_TEXT"))
 					self.didnotLaunch.toggle()
 					opened()
 				}

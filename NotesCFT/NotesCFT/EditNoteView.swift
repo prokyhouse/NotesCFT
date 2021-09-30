@@ -10,7 +10,7 @@ import CoreData
 
 struct EditNoteView: View {
 
-	var nbTitle: String = "Редактирование"
+	var nbTitle: String = l10n("EDITNOTE_TITLE")
 
 	@ObservedObject var myItem: Note
 	@State var noteText: String = ""
@@ -31,7 +31,7 @@ struct EditNoteView: View {
 					.frame(minHeight: 100, idealHeight: 300, maxHeight: .infinity, alignment: .center)
 			}
 			HStack {
-				Button("Сохранить изменения") {
+				Button(l10n("SAVE")) {
 					if !noteText.isEmpty {
 						myItem.text = noteText
 						editNote()
@@ -46,7 +46,7 @@ struct EditNoteView: View {
 				.font(Font.headline.weight(.bold))
 			}
 
-			Button("Cкопировать заметку") {
+			Button(l10n("COPY")) {
 				UIPasteboard.general.string = myItem.text
 			}
 
@@ -66,15 +66,15 @@ struct EditNoteView: View {
 							myItem.text = noteText
 							editNote()
 						} }) {
-							Label("Сохранить", systemImage: "square.and.pencil")
+							Label(l10n("SAVE"), systemImage: "square.and.pencil")
 						}
 						Button(action: { UIPasteboard.general.string = myItem.text }) {
-							Label("Скопировать", systemImage: "doc.on.doc")
+							Label(l10n("COPY"), systemImage: "doc.on.doc")
 						}
 					}
 				}
 			label: {
-				Label("Настройки", systemImage: "slider.horizontal.3")
+				Label(l10n("SETTINGS"), systemImage: "slider.horizontal.3")
 			}
 			}
 		}
@@ -93,7 +93,7 @@ struct EditNoteView: View {
 			Image(systemName: "chevron.backward") // set image here
 				.aspectRatio(contentMode: .fit)
 				.foregroundColor(.accentColor)
-			Text("Назад")
+			Text(l10n("BACK"))
 				.foregroundColor(.accentColor)
 		}
 	}

@@ -25,14 +25,14 @@ struct NotesView: View {
 					NavigationLink(destination: EditNoteView(myItem: item, noteText: item.text!, editView: $editView)) {
 						VStack(alignment: .leading) {
 							if !(item.text!.isEmpty) {
-							Text(item.text ?? "Нет текста")
+							Text(item.text ?? l10n("NO TEXT"))
 								.lineLimit(2)
 							} else {
-							Text("Нет текста")
+							Text(l10n("NO TEXT"))
 								.lineLimit(2)
 								.foregroundColor(Color.gray)
 							}
-							Text("Изменено \(item.timestamp!, formatter: itemFormatter)").font(.caption)
+							Text("\(item.timestamp!, formatter: itemFormatter)").font(.caption)
 								.lineLimit(1)
 								.foregroundColor(Color.gray)
 						}
@@ -40,11 +40,11 @@ struct NotesView: View {
 				}
 				.onDelete(perform: deleteNote)
 			}
-			.navigationBarTitle(Text("Заметки ЦФТ"))
+			.navigationBarTitle(Text(l10n("APP_TITLE")))
 			.navigationBarItems(trailing:
 									Button(action: { self.showNoteView.toggle()
 			}) {
-				Label("Добавить", systemImage: "plus")
+				Label(l10n("ADD"), systemImage: "plus")
 			}
 			)
 			.toolbar {

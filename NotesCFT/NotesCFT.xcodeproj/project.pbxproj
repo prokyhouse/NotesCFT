@@ -18,6 +18,8 @@
 		F08F377D2702F35100C80957 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F377C2702F35100C80957 /* AddNoteView.swift */; };
 		F08F377F27039C6800C80957 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F377E27039C6800C80957 /* NotesView.swift */; };
 		F08F378327039E0600C80957 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F378227039E0600C80957 /* WelcomeView.swift */; };
+		F08F3786270593EF00C80957 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F08F3788270593EF00C80957 /* Localizable.strings */; };
+		F08F378B2705C86C00C80957 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F378A2705C86C00C80957 /* Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +32,13 @@
 		F08F376B2701A16900C80957 /* NotesCFT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesCFT.xcdatamodel; sourceTree = "<group>"; };
 		F08F37722701A19800C80957 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F08F3776270204FA00C80957 /* EditNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteView.swift; sourceTree = "<group>"; };
-		F08F377B2702415A00C80957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F08F377B2702415A00C80957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F08F377C2702F35100C80957 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 		F08F377E27039C6800C80957 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		F08F378227039E0600C80957 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F08F3787270593EF00C80957 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F08F3789270593FE00C80957 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F08F378A2705C86C00C80957 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,18 +71,17 @@
 		F08F375E2701A16600C80957 /* NotesCFT */ = {
 			isa = PBXGroup;
 			children = (
-				F08F377B2702415A00C80957 /* Info.plist */,
-				F08F377E27039C6800C80957 /* NotesView.swift */,
-				F08F375F2701A16600C80957 /* NotesCFTApp.swift */,
-				F08F37612701A16600C80957 /* ContentView.swift */,
-				F08F37632701A16900C80957 /* Assets.xcassets */,
-				F08F37682701A16900C80957 /* Persistence.swift */,
-				F08F376A2701A16900C80957 /* NotesCFT.xcdatamodeld */,
-				F08F37652701A16900C80957 /* Preview Content */,
 				F08F37722701A19800C80957 /* LaunchScreen.storyboard */,
+				F08F37682701A16900C80957 /* Persistence.swift */,
+				F08F375F2701A16600C80957 /* NotesCFTApp.swift */,
+				F08F377E27039C6800C80957 /* NotesView.swift */,
+				F08F37612701A16600C80957 /* ContentView.swift */,
 				F08F3776270204FA00C80957 /* EditNoteView.swift */,
 				F08F377C2702F35100C80957 /* AddNoteView.swift */,
 				F08F378227039E0600C80957 /* WelcomeView.swift */,
+				F08F376A2701A16900C80957 /* NotesCFT.xcdatamodeld */,
+				F08F377B2702415A00C80957 /* Info.plist */,
+				F08F378C2705C88600C80957 /* Resources */,
 			);
 			path = NotesCFT;
 			sourceTree = "<group>";
@@ -88,6 +92,17 @@
 				F08F37662701A16900C80957 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F08F378C2705C88600C80957 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F08F37652701A16900C80957 /* Preview Content */,
+				F08F37632701A16900C80957 /* Assets.xcassets */,
+				F08F3788270593EF00C80957 /* Localizable.strings */,
+				F08F378A2705C86C00C80957 /* Localization.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +148,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = F08F37532701A16600C80957;
 			productRefGroup = F08F375D2701A16600C80957 /* Products */;
@@ -150,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F08F37732701A19800C80957 /* LaunchScreen.storyboard in Resources */,
+				F08F3786270593EF00C80957 /* Localizable.strings in Resources */,
 				F08F37672701A16900C80957 /* Preview Assets.xcassets in Resources */,
 				F08F37642701A16900C80957 /* Assets.xcassets in Resources */,
 			);
@@ -173,7 +190,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -187,6 +205,7 @@
 				F08F37692701A16900C80957 /* Persistence.swift in Sources */,
 				F08F378327039E0600C80957 /* WelcomeView.swift in Sources */,
 				F08F37622701A16600C80957 /* ContentView.swift in Sources */,
+				F08F378B2705C86C00C80957 /* Localization.swift in Sources */,
 				F08F37602701A16600C80957 /* NotesCFTApp.swift in Sources */,
 				F08F3777270204FB00C80957 /* EditNoteView.swift in Sources */,
 				F08F376C2701A16900C80957 /* NotesCFT.xcdatamodeld in Sources */,
@@ -194,6 +213,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F08F3788270593EF00C80957 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08F3787270593EF00C80957 /* en */,
+				F08F3789270593FE00C80957 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F08F376D2701A16900C80957 /* Debug */ = {
@@ -319,7 +350,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NotesCFT/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NotesCFT/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = V4U2WRPNL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -350,7 +381,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NotesCFT/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NotesCFT/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = V4U2WRPNL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

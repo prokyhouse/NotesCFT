@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  NotesCFT
+
+  Created by Кирилл Прокофьев on 30.09.2021.
+  
+*/
+
+"WELCOME_TITLE" = "Привет!";
+"EDITNOTE_TITLE" = "Редактирование";
+"APP_TITLE" = "Заметки ЦФТ";
+"ADDNOTE_TITLE" = "Новая заметка";
+
+"WELCOME_DESCRIPTION" = "Добро пожаловать в Заметки ЦФТ!\n Данное приложение написано в рамках тестового задания для FocusStart.";
+
+"CONTINUE" = "Продолжить";
+"NO TEXT" = "Нет текста";
+"EDITED" = "Изменено";
+"ADD" = "Добавить";
+"SAVE" = "Сохранить";
+"COPY" = "Cкопировать заметку";
+"SETTINGS" = "Настройки";
+"BACK" = "Назад";
+
+"TESTNOTE_TEXT" = "Тестовая заметка";

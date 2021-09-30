@@ -1,0 +1,27 @@
+/* 
+ Localizable.strings
+ NotesCFT
+
+ Created by Кирилл Прокофьев on 30.09.2021.
+
+ */
+
+"WELCOME_TITLE" = "Hello!";
+"EDITNOTE_TITLE" = "Edit";
+"APP_TITLE" = "Notes CFT";
+"ADDNOTE_TITLE" = "New note";
+
+"WELCOME_DESCRIPTION" = "Welcome to Notes CFT!\n This application is written as part of a test task for FocusStart.";
+
+"CONTINUE" = "Continue";
+"NO TEXT" = "No text";
+"EDITED" = "Edited";
+"ADD" = "Add";
+"SAVE" = "Save";
+"COPY" = "Copy";
+"SETTINGS" = "Settings";
+"BACK" = "Back";
+
+"TESTNOTE_TEXT" = "Test note";
+
+
