@@ -1,6 +1,8 @@
 # NotesCFT
 <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/AppIcon.svg" alt="[logo]" align="left" width="150"/>
 Тестовое задание "Заметки" на Swift для FocusStart 2021.
+
+
 ## Авторы
 
 <img src="https://habrastorage.org/webt/xn/wq/r_/xnwqr_c12neoliwun446oljbewq.png" alt="Кирилл Прокофьев" align="left" width="150"/>
