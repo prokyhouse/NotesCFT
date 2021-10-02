@@ -37,4 +37,4 @@ Swift, Java, C#-разработчик, дизайнер, Middle Project manager
 
 ## Скриншоты
 
-img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSWelcome.png" alt="[WelcomeScreenshoteMacOS]" width="500"/>
+<img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSWelcome.png" alt="[WelcomeScreenshoteMacOS]" align="center" width="500"/>
