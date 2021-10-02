@@ -1,4 +1,5 @@
 # NotesCFT
+<img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/AppIcon.svg" alt="[logo]" align="left" width="150"/>
 Тестовое задание "Заметки" на Swift для FocusStart 2021.
 ## Авторы
 
