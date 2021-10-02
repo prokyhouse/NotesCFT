@@ -1,9 +1,6 @@
-<img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/AppIcon.svg" alt="[logo]" align="left" width="150"/>
 # NotesCFT
 
-
 Тестовое задание "Заметки" на Swift для FocusStart 2021.
-
 
 ## Авторы
 
@@ -24,6 +21,8 @@ Swift, Java, C#-разработчик, дизайнер, Middle Project manager
 
 
 ## О проекте
+<img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/AppIcon.svg" alt="[logo]" align="left" width="150"/>
+
     Интерфейс приложения написан на SwiftUI без использования UIKit и StoryBoard.
     Способ хранения данных: CoreData (для заметок) 
     и UserDefaults (для проверки "первого" запуска приложения).
