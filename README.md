@@ -3,6 +3,8 @@
 Тестовое задание "Заметки" на Swift для FocusStart 2021.
 Приложение адаптировано для iOS, iPadOS и macOS.
 
+Рекоммендуемое использование на iOS.
+
 ## Авторы
 
 <img src="https://habrastorage.org/webt/xn/wq/r_/xnwqr_c12neoliwun446oljbewq.png" alt="Кирилл Прокофьев" align="left" width="150"/>
@@ -36,9 +38,8 @@ Swift, Java, C#-разработчик, дизайнер, Middle Project manager
 Дата выпуска: 30.09.2021 
 
 ## Скриншоты
-### macOS ###
-<img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSWelcome.png" alt="[WelcomeScreenshoteMacOS]" align="center" width="500"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSApp.png" alt="[AppScreenshoteMacOS]" align="center" width="500"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSAddNote.png" alt="[AddNoteScreenshoteMacOS]" align="center" width="500"/>
-
 ### iOS ###
 <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/iosLaunch.png" alt="[LaunchScreenshoteiOS]" align="center" width="200"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/iosWelcome.png" alt="[WelcomeScreenshoteiOS]" align="center" width="200"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/iosList.png" alt="[AppScreenshoteiOS]" align="center" width="200"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/iosNote.png" alt="[AddNoteScreenshoteiOS]" align="center" width="200"/>
 
+### macOS ###
+<img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSWelcome.png" alt="[WelcomeScreenshoteMacOS]" align="center" width="500"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSApp.png" alt="[AppScreenshoteMacOS]" align="center" width="500"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSAddNote.png" alt="[AddNoteScreenshoteMacOS]" align="center" width="500"/>
