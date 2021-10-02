@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F07C048E270898D000186876 /* NotesCFT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotesCFT.entitlements; sourceTree = "<group>"; };
 		F08F375C2701A16600C80957 /* NotesCFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesCFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08F375F2701A16600C80957 /* NotesCFTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCFTApp.swift; sourceTree = "<group>"; };
 		F08F37612701A16600C80957 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		F08F375E2701A16600C80957 /* NotesCFT */ = {
 			isa = PBXGroup;
 			children = (
+				F07C048E270898D000186876 /* NotesCFT.entitlements */,
 				F08F37722701A19800C80957 /* LaunchScreen.storyboard */,
 				F08F37682701A16900C80957 /* Persistence.swift */,
 				F08F375F2701A16600C80957 /* NotesCFTApp.swift */,
@@ -348,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotesCFT/NotesCFT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NotesCFT/Resources/Preview Content\"";
@@ -368,6 +371,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.cft.testApp.NotesCFT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotesCFT/NotesCFT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NotesCFT/Resources/Preview Content\"";
@@ -399,6 +404,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.cft.testApp.NotesCFT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

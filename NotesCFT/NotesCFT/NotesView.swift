@@ -74,3 +74,11 @@ private let itemFormatter: DateFormatter = {
 	formatter.timeStyle = .medium
 	return formatter
 }()
+
+#if DEBUG
+struct NotesView_Preview: PreviewProvider {
+	static var previews: some View {
+		NotesView()
+	}
+}
+#endif
