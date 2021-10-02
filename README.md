@@ -38,3 +38,7 @@ Swift, Java, C#-разработчик, дизайнер, Middle Project manager
 ## Скриншоты
 ### macOS ###
 <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSWelcome.png" alt="[WelcomeScreenshoteMacOS]" align="center" width="500"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSApp.png" alt="[AppScreenshoteMacOS]" align="center" width="500"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSAddNote.png" alt="[AddNoteScreenshoteMacOS]" align="center" width="500"/>
+
+### iOS ###
+<img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/iosLaunch.png" alt="[LaunchScreenshoteiOS]" align="center" width="300"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/iosWelcome.png" alt="[WelcomeScreenshoteiOS]" align="center" width="300"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/iosList.png" alt="[AppScreenshoteiOS]" align="center" width="300"/> <img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/iosNote.png" alt="[AddNoteScreenshoteiOS]" align="center" width="300"/>
+
