@@ -1,6 +1,7 @@
 # NotesCFT
 
 Тестовое задание "Заметки" на Swift для FocusStart 2021.
+Приложение адаптировано для iOS, iPadOS и macOS.
 
 ## Авторы
 
@@ -28,7 +29,12 @@ Swift, Java, C#-разработчик, дизайнер, Middle Project manager
     и UserDefaults (для проверки "первого" запуска приложения).
     
     Приложение локализовано для 2 языков -- английского и русского языков.
-    Минимальная версия iOS - 14.0.
+    Минимальная версия iOS и iPadOS- 14.0.
+    Минимальная версия macOS - 11.0 Big Sur.
    
 ## Сроки выхода проекта.
 Дата выпуска: 30.09.2021 
+
+## Скриншоты
+
+img src="https://github.com/prokyhouse/NotesCFT/blob/master/Images/macOSWelcome.png" alt="[WelcomeScreenshoteMacOS]" align="center" width="500"/>
